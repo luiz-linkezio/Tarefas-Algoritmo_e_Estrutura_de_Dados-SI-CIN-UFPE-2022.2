@@ -9,10 +9,15 @@ Em meio ao caos universitário e nas proximidades da melhor época festiva do no
 O programa receberá uma quantidade indefinida de entradas e deverá encerrar quando o comando final “FIM” for dado. Comandos:
 
 NOME <nome-do-usuário>
+
 BEIJO <nome-de-quem-deu-a-curtida>
+
 SUPERBEIJO <nome-de-quem-deu-o-superlike>
+
 XODÓ <nome-de-quem-deu-o-match>
+
 MOSTRAR
+
 FIM
 
 O comando "**NOME**" indica o nome do perfil e só aparece no início da lista de comandos.
