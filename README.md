@@ -8,4 +8,4 @@ Conceitos básicos de algoritmos; algoritmos e estruturas de dados dinâmicas b�
 
 ## Organização dos Arquivos
 
-No diretório `Listas` existem várias pastas contendo as tarefas de cada lista, cada lista tem um tema específico, cada pasta de cada lista contém uma pasta para cada tarefa, essas pastas de tarefa contém um arquivo `.md` mostrando o enunciado da tarefa e outro arquivo com a solução do problema em formato de código, feito por mim.
+No diretório `Listas` existem várias pastas contendo as tarefas de cada lista, cada lista tem um tema específico, cada pasta de cada lista contém uma pasta para cada tarefa, essas pastas de tarefa contém um arquivo `.md` mostrando o enunciado da tarefa e outro arquivo com a solução do problema em formato de código, feita por mim.
