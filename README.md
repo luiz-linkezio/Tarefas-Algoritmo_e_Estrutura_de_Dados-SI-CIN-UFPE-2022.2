@@ -23,7 +23,7 @@ As tarefas são no seguinte formato: Existe um problema no enunciado, o aluno te
 - Os alunos faziam uma lista por vez e tinham um prazo para enviar as atividades da lista
 - Cada lista tinha pontuação mínima e máxima de 0 a 10 respectivamente
 - Os alunos e as tarefas eram monitorados para evitar que algum aluno copiasse respostas de outros alunos.
-- As questões têm algo chamado "limite de tempo do código" que é o tempo máximo que o código pode demorar para rodar completamente, cada questão tem seu tempo limite descrito no enunciado.
+- As tarefas têm algo chamado "limite de tempo do código" que é o tempo máximo que o código pode demorar para rodar completamente, cada questão tem seu tempo limite descrito no enunciado.
 
 ## Links:
 
