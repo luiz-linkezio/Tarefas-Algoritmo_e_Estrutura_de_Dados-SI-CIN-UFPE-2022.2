@@ -1,6 +1,6 @@
 # Tasks-Algorithm_and_Data_Structures-SI-CIN-UFPE-2022.2
 
-Tasks for the Algorithm and Data Structures course of the Information Systems (SI) program at the Center for Informatics (CIN) of the Federal University of Pernambuco (UFPE), a course I took in 2023.
+Tasks for the Algorithm and Data Structures course of the [Information Systems (SI)](https://portal.cin.ufpe.br/graduacao/sistemas-de-informacao/) undergraduate program at the [Center for Informatics (CIN)](https://portal.cin.ufpe.br/) of the [Federal University of Pernambuco (UFPE)](https://www.ufpe.br/), a course I took in 2023.
 
 ## Course Syllabus
 
@@ -36,5 +36,7 @@ Official Java website: https://www.java.com/pt-BR/
 Official Haskell website: https://www.haskell.org
 
 CIN website: https://portal.cin.ufpe.br/
+
+Website of the Information Systems (SI) undergraduate program: https://portal.cin.ufpe.br/graduacao/sistemas-de-informacao/
 
 UFPE website: https://www.ufpe.br/
