@@ -1,4 +1,4 @@
-# Tarefas-Algoritmo_e_Estrutura_de_Dados-SI-CIN-UFPE-2022.2
+# Tarefas-Algoritmo_e_Estrutura_de_Dados-SI-CIN-UFPE-2023.1
 
 Tarefas da cadeira Algoritmo e Estrutura de Dados da graduação em [Sistemas de Informação (SI)](https://portal.cin.ufpe.br/graduacao/sistemas-de-informacao/) do [Centro de Informática (CIN)](https://portal.cin.ufpe.br/) da [Universidade Federal de Pernambuco (UFPE)](https://www.ufpe.br/), cadeira cursada por mim em 2023.
 
