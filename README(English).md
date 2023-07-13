@@ -10,6 +10,8 @@ Basic concepts of algorithms; basic dynamic algorithms and data structures; algo
 
 In the `Lists` directory, there are several folders containing the tasks for each list. Each list has a specific theme, and each folder within each list contains a folder for each task. These task folders contain an `.md` file showing the task statement and another file with the solution to the problem in code format, made by me.
 
+The symbol ✅ means that I was able to successfully complete the task.
+
 ## Tasks Proposal
 
 The tasks in this repository are problems that should be solved using specific algorithms, such as Doubly Linked Lists and Trees, for example. These activities aim to introduce students to algorithm concepts and the algorithms themselves.
