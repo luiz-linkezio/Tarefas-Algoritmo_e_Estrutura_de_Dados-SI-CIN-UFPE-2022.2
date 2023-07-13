@@ -10,6 +10,8 @@ Conceitos básicos de algoritmos; algoritmos e estruturas de dados dinâmicas b�
 
 No diretório `Listas` existem várias pastas contendo as tarefas de cada lista, cada lista tem um tema específico, cada pasta de cada lista contém uma pasta para cada tarefa, essas pastas de tarefa contém um arquivo `.md` mostrando o enunciado da tarefa e outro arquivo com a solução do problema em formato de código, feita por mim.
 
+O símbolo ✅ significa que eu consegui concluir a tarefa com sucesso (o símbolo pode estar com outra cor).
+
 ## Proposta das Tarefas
 
 As tarefas deste repositório são tarefas que devem ser solucionadas através de algoritmos específicos, como por exemplo: Listas Duplamente Encadeadas e Árvores. Estas atividades têm o objetivo de introduzir os alunos aos conceitos de algoritmos e também os próprios algoritmos.
