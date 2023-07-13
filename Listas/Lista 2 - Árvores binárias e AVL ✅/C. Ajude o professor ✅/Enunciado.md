@@ -25,31 +25,31 @@ Os inputs serão representados por essa lista de comandos:
 
 Cada comando deverá ter um retorno específico. Confira os retornos:
 
-• **INSERIR [nome]** :
+- **INSERIR [nome]** :
 
-• • Se o nome não existir na árvore: [nome] INSERIDO
+- - Se o nome não existir na árvore: [nome] INSERIDO
 
-• • Se o nome já estiver na árvore: [nome] JA EXISTE
+- - Se o nome já estiver na árvore: [nome] JA EXISTE
 
-• **DELETAR [nome]** :
+- **DELETAR [nome]** :
 
-• • Se o nome não existir na árvore: [nome] NAO ENCONTRADO
+- - Se o nome não existir na árvore: [nome] NAO ENCONTRADO
 
-• • Se o nome já estiver na árvore: [nome] REMOVIDO
+- - Se o nome já estiver na árvore: [nome] REMOVIDO
 
 **DICA: O sistema de remoção é o mesmo utilizado do slide do professor.**
 
-• **FIM** :
+- **FIM** :
 
-• • Para demonstrar que o novo código é eficiente e funciona corretamente, você deverá seguir os seguintes passos:
+- - Para demonstrar que o novo código é eficiente e funciona corretamente, você deverá seguir os seguintes passos:
 
-• • • Se a árvore estiver vazia: ARVORE VAZIA
+- - - Se a árvore estiver vazia: ARVORE VAZIA
 
-• • • Se a árvore possuir nós, você deverá retornar o nome dos alunos EM PRÉ ORDEM e a ALTURA total da árvore.
+- - - Se a árvore possuir nós, você deverá retornar o nome dos alunos EM PRÉ ORDEM e a ALTURA total da árvore.
 
-• • Após realizar alguma dessas atividades, o comando FIM deverá finalizar a execução do programa.
+- - Após realizar alguma dessas atividades, o comando FIM deverá finalizar a execução do programa.
 
-• • • **Exemplo de output após o comando "FIM"**:
+- - - **Exemplo de output após o comando "FIM"**:
 
 ```
 nó1 -> nó2 -> nó3 -> FIM. ALTURA: x
