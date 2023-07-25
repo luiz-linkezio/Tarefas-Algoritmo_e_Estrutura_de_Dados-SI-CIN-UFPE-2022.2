@@ -2,7 +2,7 @@
 
 **Limite de tempo do código: 120ms**
 
-Juquinha foi contratado como freelancer em uma casa de apostas popular, *Brazino*, para ajudá-los a implementar um sistema de adição e remoção de partidas de forma rápida. Ajude Juquinha, criando um sistema que utilize hashing de endereçamento aberto.
+Juquinha foi contratado como freelancer em uma casa de apostas popular, *Brazino*, para ajudá-los a implementar um sistema de adição e remoção de partidas de forma rápida. Ajude Juquinha, criando um sistema que utilize **hashing de endereçamento aberto**.
 
 Para todas as partidas temos as seguintes informações:
 
@@ -41,6 +41,8 @@ As partidas com o mesmo timestamp (as que começam na mesma data e hora) devem s
 - 1: Não é permitido usar dicionarios
 
 - 2: Não é permitido o uso de bibliotecas.
+
+- 3: Utilize **hashing de endereçamento aberto**.
 
 **Exemplo de visualização:** Onde a hashtable tem 5 espaços, a lista tem limite para apenas 3 partidas, e partidas que começam na mesma data estão agrupadas, o quinto espaço (4) está vázio.
 
@@ -127,7 +129,11 @@ Slot 1: ['Argentina vs Paraguai', 'Venezuela vs Brazil']
 Slot 2: Vazio
 ``` 
 
+**OBS:** Utilize **hashing de endereçamento aberto**.
+
 ## Output:
+
+**OBS:** Utilize **hashing de endereçamento aberto**.
 
 A maioria dos outputs são para ações que não se concretizaram
 
@@ -207,6 +213,8 @@ ex:
 "Slot 1: Vazio"
 ```
 
+**OBS:** Utilize **hashing de endereçamento aberto**.
+
 ## Exemplos:
 
 ### Caso 1:
@@ -272,4 +280,164 @@ o sistema não está armazenando partidas nesse horario!
 Slot 0: ['Palmeiras vs Sao Paulo']
 Slot 1: Vazio
 Slot 2: Vazio
+```
+
+### Caso 2:
+
+Input:
+```
+5 1
+ADD
+1 Argentina vs Paraguai
+2 Palmeiras vs Nautico
+3 São Paulo vs Palmeiras
+6 America-MG vs Vasco da Gama
+4 Fluminense vs Internacional
+5 Fortaleza vs Athletico-PR
+DONE
+PRINT
+ADD
+1 Argentina vs Paraguai
+2 Palmeiras vs Nautico
+3 São Paulo vs Palmeiras
+4 Fluminense vs Internacional
+5 Fortaleza vs Athletico-PR
+6 America-MG vs Vasco da Gama
+DONE
+PRINT
+REM
+1 Argentina vs Paraguai
+2 Palmeiras vs Nautico
+3 São Paulo vs Palmeiras
+4 Fluminense vs Internacional
+5 Fortaleza vs Athletico-PR
+6 America-MG vs Vasco da Gama
+7 Sport vs Santa Cruz
+DONE
+PRINT
+ADD
+1 Argentina vs Paraguai
+2 Palmeiras vs Nautico
+7 Sport vs Santa Cruz
+3 São Paulo vs Palmeiras
+4 Fluminense vs Internacional
+5 Fortaleza vs Athletico-PR
+6 America-MG vs Vasco da Gama
+DONE
+PRINT
+REM
+4 Fluminense vs Internacional
+DONE
+PRINT
+ADD
+5 Fortaleza vs Athletico-PR
+6 America-MG vs Vasco da Gama
+DONE
+PRINT
+REM
+4 Fluminense vs Internacional
+1 Argentina vs Paraguai
+DONE
+PRINT
+REMT 4
+REMT 1
+PRINT
+ADD
+7 Sport vs Santa Cruz
+6 Y vs O
+7 Y vs O
+1 A vs B
+2 C vs D
+3 E vs F
+4 I vs H
+5 Z vs U
+DONE
+PRINT
+REMT 30
+REMT 1
+REMT 2
+REMT 3
+REMT 4
+REMT 9999
+PRINT
+```
+
+Output:
+```
+partida: Fortaleza vs Athletico-PR não foi adicionada por falta de espaço na hashtable!
+Slot 0: ['Fluminense vs Internacional']
+Slot 1: ['Argentina vs Paraguai']
+Slot 2: ['Palmeiras vs Nautico']
+Slot 3: ['São Paulo vs Palmeiras']
+Slot 4: ['America-MG vs Vasco da Gama']
+partida: Argentina vs Paraguai não foi adicionada por falta de espaço na lista!
+partida: Palmeiras vs Nautico não foi adicionada por falta de espaço na lista!
+partida: São Paulo vs Palmeiras não foi adicionada por falta de espaço na lista!
+partida: Fluminense vs Internacional não foi adicionada por falta de espaço na lista!
+partida: Fortaleza vs Athletico-PR não foi adicionada por falta de espaço na hashtable!
+partida: America-MG vs Vasco da Gama não foi adicionada por falta de espaço na lista!
+Slot 0: ['Fluminense vs Internacional']
+Slot 1: ['Argentina vs Paraguai']
+Slot 2: ['Palmeiras vs Nautico']
+Slot 3: ['São Paulo vs Palmeiras']
+Slot 4: ['America-MG vs Vasco da Gama']
+o sistema não está armazenando partidas nesse horario!
+o sistema não está armazenando partidas nesse horario!
+Slot 0: Vazio
+Slot 1: Vazio
+Slot 2: Vazio
+Slot 3: Vazio
+Slot 4: Vazio
+partida: Fortaleza vs Athletico-PR não foi adicionada por falta de espaço na hashtable!
+partida: America-MG vs Vasco da Gama não foi adicionada por falta de espaço na hashtable!
+Slot 0: ['Fluminense vs Internacional']
+Slot 1: ['Argentina vs Paraguai']
+Slot 2: ['Palmeiras vs Nautico']
+Slot 3: ['Sport vs Santa Cruz']
+Slot 4: ['São Paulo vs Palmeiras']
+Slot 0: Vazio
+Slot 1: ['Argentina vs Paraguai']
+Slot 2: ['Palmeiras vs Nautico']
+Slot 3: ['Sport vs Santa Cruz']
+Slot 4: ['São Paulo vs Palmeiras']
+partida: America-MG vs Vasco da Gama não foi adicionada por falta de espaço na hashtable!
+Slot 0: ['Fortaleza vs Athletico-PR']
+Slot 1: ['Argentina vs Paraguai']
+Slot 2: ['Palmeiras vs Nautico']
+Slot 3: ['Sport vs Santa Cruz']
+Slot 4: ['São Paulo vs Palmeiras']
+o sistema não está armazenando partidas nesse horario!
+Slot 0: ['Fortaleza vs Athletico-PR']
+Slot 1: Vazio
+Slot 2: ['Palmeiras vs Nautico']
+Slot 3: ['Sport vs Santa Cruz']
+Slot 4: ['São Paulo vs Palmeiras']
+o sistema não está armazenando partidas nesse horario!
+o sistema não está armazenando partidas nesse horario!
+Slot 0: ['Fortaleza vs Athletico-PR']
+Slot 1: Vazio
+Slot 2: ['Palmeiras vs Nautico']
+Slot 3: ['Sport vs Santa Cruz']
+Slot 4: ['São Paulo vs Palmeiras']
+partida: Sport vs Santa Cruz não foi adicionada por falta de espaço na lista!
+partida: Y vs O não foi adicionada por falta de espaço na lista!
+partida: A vs B não foi adicionada por falta de espaço na hashtable!
+partida: C vs D não foi adicionada por falta de espaço na lista!
+partida: E vs F não foi adicionada por falta de espaço na lista!
+partida: I vs H não foi adicionada por falta de espaço na hashtable!
+partida: Z vs U não foi adicionada por falta de espaço na lista!
+Slot 0: ['Fortaleza vs Athletico-PR']
+Slot 1: ['Y vs O']
+Slot 2: ['Palmeiras vs Nautico']
+Slot 3: ['Sport vs Santa Cruz']
+Slot 4: ['São Paulo vs Palmeiras']
+o sistema não está armazenando partidas nesse horario!
+o sistema não está armazenando partidas nesse horario!
+o sistema não está armazenando partidas nesse horario!
+o sistema não está armazenando partidas nesse horario!
+Slot 0: ['Fortaleza vs Athletico-PR']
+Slot 1: ['Y vs O']
+Slot 2: Vazio
+Slot 3: ['Sport vs Santa Cruz']
+Slot 4: Vazio
 ```
