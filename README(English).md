@@ -2,6 +2,8 @@
 
 Tasks for the Algorithm and Data Structures course of the [Information Systems (SI)](https://portal.cin.ufpe.br/graduacao/sistemas-de-informacao/) undergraduate program at the [Center for Informatics (CIN)](https://portal.cin.ufpe.br/) of the [Federal University of Pernambuco (UFPE)](https://www.ufpe.br/), a course I took in 2023.
 
+The course grade is composed of several task lists and a project. The project is in this other repository: https://github.com/luiz-linkezio/The_Cure-Prim_Algorithm.
+
 ## Course Syllabus
 
 Basic concepts of algorithms; basic dynamic algorithms and data structures; algorithm design techniques; algorithm complexity concepts.
