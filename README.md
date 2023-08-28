@@ -2,7 +2,7 @@
 
 Tarefas da cadeira Algoritmo e Estrutura de Dados da graduação em [Sistemas de Informação (SI)](https://portal.cin.ufpe.br/graduacao/sistemas-de-informacao/) do [Centro de Informática (CIN)](https://portal.cin.ufpe.br/) da [Universidade Federal de Pernambuco (UFPE)](https://www.ufpe.br/), cadeira cursada por mim em 2023.
 
-A nota da cadeira é composta por várias listas de tarefas e um projeto, o projeto está nesse outro repositório: https://github.com/luiz-linkezio/The_Cure-Prim_Algorithm
+A nota da cadeira é composta por várias listas de tarefas e um projeto, este repositório é para as tarefas, o projeto está nesse outro repositório: https://github.com/luiz-linkezio/The_Cure-Prim_Algorithm
 
 ## Ementa da Cadeira
 
